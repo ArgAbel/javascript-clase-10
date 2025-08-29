@@ -4,7 +4,7 @@
      
         addEventListener('submit', function(event) {
         event.preventDefault();
-        const num1 = document.getElementById('numero1').value;
+        const num1 = Number(document.getElementById('numero1').value);
         const num2 = document.getElementById('numero2').value;
         const mensaje1 = num1 - num2;
         const mensaje2 = num1 + num2;
